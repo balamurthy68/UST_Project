@@ -12,14 +12,46 @@ public class LocalDateTimeExample {
 	        String formatDateTime = now.format(format);  
 	        System.out.println("After Formatting: " + formatDateTime);  
 	    
-	    // Assignment : Greet the user Good morning if <12, Good Afternoon if >=12
+	    // Assignment : sop Good morning if <12, Good Afternoon if >=12
 	        //and Good evening if >=3
 	        //Good night if >=7
 	        
 	        //Stage no 2 - store the actual Greeting value in a property file or
 	        //a string and compare with expected Greeting 
+	        int curtime = LocalTime.now().getHour();
 	        
-	        System.out.println(LocalTime.now().getHour());
+	        
+	        String greet;
+	        
+	        if (curtime < 12)
+	        {
+	        
+	        	greet="Good morning";
+	
+	
+	        
+	        }
+	        else if (curtime >=12 && curtime <16)
+	        {
+	        	greet="Good Afternoon";
+	        }
+	        else if (curtime >=16 && curtime <=19)
+	        {
+	        	greet = "Good Evening";
+	        	
+	        }
+	        else 
+	        {
+	        	greet = "Good Night";
+		        
+	        }
+	        
+	        
+	        
+	        
+	        System.out.println("Expecting " +  greet + " in the homepage");
+	        
+	        
 	    }  
 	}  
 
