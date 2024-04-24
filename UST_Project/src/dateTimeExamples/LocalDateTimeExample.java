@@ -49,9 +49,10 @@ public class LocalDateTimeExample {
 	        
 	        
 	        
-	        System.out.println("Expecting " +  greet + " in the homepage");
+	        System.out.println("Expecting " +  greet);
 	        
 	        
 	    }  
 	}  
+
 
