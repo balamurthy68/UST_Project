@@ -21,6 +21,7 @@ public class arrayListExample {
         // Indexed for loop iteration
         for (int i = 0; i < numbers.size(); i++) {
             System.out.println(numbers.get(i));
+            
         }
  
         // Removing items (careful!)
