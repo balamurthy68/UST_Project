@@ -56,10 +56,9 @@ public class excelReader {
 	static void display(XSSFCell s_custid2,XSSFCell s_custname2) throws InterruptedException
 
 	{
-
+ 
 		System.out.println("Custid is:" + s_custid2 + " Custname is : " + s_custname2);
-
-		
+	
 		String p1 = s_custid2.toString();	
 		String p2 = s_custname2.toString();
 		
