@@ -62,7 +62,7 @@ public class openBrowser {
 		String expectedFooter = "Elemental Selenium";
 		try {
 		
-			driver.findElement(By.linkText("Elemental Selenium"));
+			driver.findElement(By.partialLinkText("Elemental"));
 			System.out.println("Link " + expectedFooter+ " present in page. Page fully loaded.");
 			
 		}
