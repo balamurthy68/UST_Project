@@ -61,6 +61,7 @@ public class readAllLinks {
 						System.out.println(urlLink+" - "+httpConn.getResponseMessage() + "Broken");
 							
 					}
+					
 					/*
 					if(httpConn.getResponseCode()== 404) {
 						System.out.println(urlLink+" - "+httpConn.getResponseMessage() + "Broken");
