@@ -15,8 +15,7 @@ public class openBrowser {
 	
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
-		
-		
+				
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\DELL\\git\\UST_Project\\UST_Project\\chromedriver-win64\\chromedriver.exe");
 				
 		ChromeOptions options = new ChromeOptions();
