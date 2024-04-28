@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class openBrowser {
+public class sanityTestsHerokuLoginPage {
 
 	static WebDriver driver;
 	

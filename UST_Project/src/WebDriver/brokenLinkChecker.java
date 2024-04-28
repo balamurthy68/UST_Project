@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import utils.openChromeBrowser;
 
-public class readAllLinks {
+public class brokenLinkChecker {
 	static WebDriver driver;
 	 
 	public static void main(String[] args) {
@@ -20,19 +20,19 @@ public class readAllLinks {
 		
 		driver = ob.openChrome();
 		
-		driver.get("d://ustpage.html");
+		driver.get("https://the-internet.herokuapp.com/broken_images");
 		
-		java.util.List <WebElement> allLinks = driver.findElements(By.tagName("a"));
+		java.util.List <WebElement> allLinks = driver.findElements(By.tagName("img"));
 		 
 		System.out.println("No of links: " + allLinks.size() );
 		 
 		for (WebElement l: allLinks) {
 			 
-			System.out.print(l.getText() + "***");
+		//	System.out.print(l.getText() + "***");
 			
-			System.out.println(l.getAttribute("href"));
+		//	System.out.println(l.getAttribute("href"));
 			
-			verifyLink(l.getAttribute("href"));
+			verifyLink(l.getAttribute("src"));
 			
 			//call a user defined function, pass the href value. Check for return code
 		}
@@ -58,14 +58,10 @@ public class readAllLinks {
 					}
 					else
 					{
-						System.out.println(urlLink+" - "+httpConn.getResponseMessage() + "Broken");
+						System.out.println(urlLink+" - "+httpConn.getResponseMessage());
 							
 					}
-					/*
-					if(httpConn.getResponseCode()== 404) {
-						System.out.println(urlLink+" - "+httpConn.getResponseMessage() + "Broken");
-					}
-					*/
+					
 				}
 				//getResponseCode method returns = IOException - if an error occurred connecting to the server. 
 			catch (Exception e) {
