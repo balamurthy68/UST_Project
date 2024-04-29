@@ -1,0 +1,3 @@
+https://devhints.io/xpath
+
+http://www.whitebeam.org/library/guide/TechNotes/xpathtestbed.rhtm
