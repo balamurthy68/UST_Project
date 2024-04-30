@@ -45,7 +45,7 @@ public class timeAndDateRegExTestCase {
 	
 		//Test Case1 - Check the header text
 		@Test
-		public void checkTimeFormatTC()
+		public void checkDateFormatTC()
 		{
 			
 			regExpMatcher reg= new regExpMatcher();
