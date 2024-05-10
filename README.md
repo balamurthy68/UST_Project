@@ -15,3 +15,9 @@ https://developer.twitter.com/en/docs/tutorials/authenticating-with-twitter-api-
 
 https://www.youtube.com/watch?v=2UAWJm9xfBY
 
+Api Testing- sample projects
+https://dummy.restapiexample.com/
+
+https://www.geeksforgeeks.org/how-to-upload-a-project-on-github/?ref=ml_lbp
+
+
