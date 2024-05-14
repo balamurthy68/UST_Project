@@ -23,6 +23,9 @@ https://www.geeksforgeeks.org/how-to-upload-a-project-on-github/?ref=ml_lbp
 TestNG website
 TestNG.org
 
+Singleton Design pattern in Selenium 
+http://makeseleniumeasy.com/2018/01/11/singleton-design-pattern-in-selenium-webdriver/
 
-
+Jenkins mcq and answers
+https://www.freshersnow.com/jenkins-quiz/
 
