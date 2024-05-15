@@ -32,3 +32,4 @@ http://makeseleniumeasy.com/2018/01/11/singleton-design-pattern-in-selenium-webd
 Jenkins mcq and answers
 https://www.freshersnow.com/jenkins-quiz/
 
+https://www.lambdatest.com/blog/selenium-best-practices-for-web-testing/#:~:text=Maximize%20the%20Browser%20Window,for%20Automation%20Testing%20with%20Selenium
