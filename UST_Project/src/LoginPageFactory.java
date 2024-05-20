@@ -6,7 +6,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class LoginPageFactory {
+public class LoginPageFactory  { // This is named incorrectly. To be named as RegistrationPageFactory
 	
 	WebDriver driver;
 	//creating parameterized constructor to initialize WebDriver reference
